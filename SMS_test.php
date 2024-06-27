@@ -4,8 +4,8 @@
 require __DIR__ . '/twilio-php-main/src/Twilio/autoload.php';
 
 // Your Account SID and Auth Token from console.twilio.com
-$sid = "AC2521ec1c3c21ebd7b340d1caad1c1884";
-$token = "e851720c810ef007893b2f357e7be2e4";
+$sid = "";
+$token = "";
 $client = new Twilio\Rest\Client($sid, $token);
 
 // Use the Client to make requests to the Twilio REST API
